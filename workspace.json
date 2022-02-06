@@ -3,6 +3,6 @@
   "projects": {
     "app": "packages/app",
     "app-e2e": "packages/app-e2e",
-    "event-emitter": "packages/event-emitter",
+    "event-emitter": "packages/event-emitter"
   }
 }
