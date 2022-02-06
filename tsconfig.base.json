@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-test/dep": ["packages/dep/src/index.ts"],
+      "@nx-test/event-emitter": ["packages/event-emitter/src/index.ts"],
+      "@nx-test/router": ["packages/router/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
